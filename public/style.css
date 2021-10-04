@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  margin: 40px 50px;
+}
+
+.animeLogo {
+  font-family: "Josefin Sans", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.animeHash {
+  font-family: "Josefin Sans", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quote-container {
+  padding: 50px;
+}
+
+.quote {
+  font-size: 5rem;
+}
+.said {
+  font-size: 1.75rem;
+  font-family: "Josefin Sans", serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.anime{
+  font-size: 2rem;
+  font-family: "Josefin Sans", serif;
+  font-weight: bold;
+  margin-top: 30px;
+    
+}
+
+.button{
+  margin-left: 100px;
+  align-content: center;
+  margin-left: 40%;
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid white;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all .2s;
+}
